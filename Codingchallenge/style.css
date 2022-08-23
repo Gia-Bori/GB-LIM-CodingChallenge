@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(immagini/background.jpg);
+  background-size: cover;
+}
+
+.blackconteiner {
+  background-color: rgba(0,0,0,0.5);
+  width: 900px;
+  margin: auto;
+  padding: 70px;
+  border-radius: 15px;
+}
+
+header {
+  text-align: center;
+  color: #00dd01;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+  margin-bottom: -15px;
+}
+
+.menù {
+  text-align: center;
+  background-color: #00dd01;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: -12px;
+}
+
+.monopattino1, .monopattino2, .monopattino3 { /* Potrei usare il nome del
+   monopattino ma potrebbe variare a secconda della posizione dell'utente*/
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+span {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+}
+
+hr {
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.chargeMono1 {
+  border: 10px solid orange;
+  width: 300px;
+}
+
+.chargeMono2 {
+  border: 10px solid #039d03;
+  width: 500px;
+}
+
+.chargeMono3 {
+  border: 10px solid red;
+  width: 200px;
+}
